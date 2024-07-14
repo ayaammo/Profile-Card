@@ -44,6 +44,6 @@ To customize the profile card with your own details:
 
 
 
-## Thank you for checking out my profile card! Feel free to use and customize it for your own projects.
+## Thank you for checking out my profile card! Feel free to use and customize it for your own projects. 😊🤍
 
 
