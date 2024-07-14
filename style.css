@@ -1,0 +1,77 @@
+/* Start Global Variables */
+:root {
+    --main-body-color: #000000;
+    --card-body-color: #1f1f1f;
+    --card-text-color: white;
+    --light-grey-color: #333232;
+    --light-color: #c5f92a;
+}
+
+/* End Global Variables */
+body {
+    background-color: var(--main-body-color);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.card {
+    position: relative;
+    background-color: var(--card-body-color);
+    padding: 30px;
+    width: 300px;
+    border-radius: 15px;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--card-text-color);
+}
+
+.prof-img {
+    border-radius: 50%;
+    height: 110px;
+    width: 110px;
+}
+
+.profile-info h2 {
+    margin-bottom: 0;
+}
+
+.profile-info span {
+    color: var(--light-color);
+    margin: 5px;
+}
+
+.profile-info p {
+    font-size: small;
+}
+
+.social-links a {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: var(--light-grey-color);
+    text-decoration: none;
+    color: var(--card-text-color);
+    text-align: center;
+    border-radius: 6px;
+}
+
+.social-links a:hover {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: var(--light-color);
+    text-decoration: none;
+    color: var(--light-grey-color);
+    transition: 0.3s;
+}
