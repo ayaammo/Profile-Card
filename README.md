@@ -28,7 +28,7 @@ To customize the profile card with your own details:
 1. Open the `index.html` file.
 2. Replace the placeholder content with your own position and social links.
 
-<!-- html --> 
+``` html 
 <!-- Example of HTML structure -->
 <div class="profile-card">
     <h2>Your Name</h2>
@@ -39,7 +39,7 @@ To customize the profile card with your own details:
         <!-- Add other social links as needed -->
     </div>
 </div>
-
+```
 3. Open the styles.css file to adjust styles as needed.
 
 
